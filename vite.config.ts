@@ -3,11 +3,11 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-const repositoryBasePath = '/anti-xss_docs/';
-
 export default defineConfig(({mode}) => {
+  const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'anti-xss_docs';
+
   return {
-    base: mode === 'production' ? repositoryBasePath : '/',
+    base: mode === 'production' ? `/${repositoryName}/` : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
