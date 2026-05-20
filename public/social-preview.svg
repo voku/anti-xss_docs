@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">AntiXSS documentation social preview</title>
+  <desc id="desc">Social preview card for the AntiXSS PHP documentation site.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="120" r="180" fill="#60a5fa" opacity="0.16"/>
+  <circle cx="180" cy="560" r="210" fill="#38bdf8" opacity="0.12"/>
+  <rect x="72" y="72" width="1056" height="486" rx="32" fill="url(#panel)" stroke="rgba(255,255,255,0.18)"/>
+  <g transform="translate(120 146)">
+    <path d="M70 0l70 23.3v50.6c0 47.4-27.1 89.2-70 114-42.9-24.8-70-66.6-70-114V23.3L70 0z" fill="#e0f2fe"/>
+    <path d="M39 75l20 20 43-47" fill="none" stroke="#1d4ed8" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+  </g>
+  <text x="300" y="220" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="0.12em">voku/anti-xss</text>
+  <text x="300" y="312" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800">AntiXSS Docs</text>
+  <text x="300" y="392" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="500">Sanitize user input, keep useful content, and ship safely.</text>
+  <g transform="translate(300 446)">
+    <rect width="370" height="60" rx="14" fill="#0f172a" opacity="0.55"/>
+    <text x="28" y="39" fill="#bfdbfe" font-family="JetBrains Mono, Menlo, monospace" font-size="28">composer require voku/anti-xss</text>
+  </g>
+</svg>
