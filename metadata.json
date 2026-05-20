@@ -1,0 +1,6 @@
+{
+  "name": "AntiXSS PHP Landing Page",
+  "description": "A dark-themed, security-focused landing page for the voku/anti-xss PHP package.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
